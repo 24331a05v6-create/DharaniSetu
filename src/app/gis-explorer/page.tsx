@@ -170,7 +170,7 @@ function DetailPanel({
   const util = detail?.utilities as Record<string, unknown> | null;
   const utilOn = util ? ['electricity', 'water', 'drainage', 'road_access'].filter(k => util[k] === true).length : null;
   return (
-    <div className="absolute top-4 left-4 bottom-16 w-80 max-w-[calc(100%-2rem)] bg-white rounded-xl shadow-lg border border-gray-200 z-10 flex flex-col overflow-hidden">
+    <div className="absolute inset-x-4 bottom-4 top-auto max-h-[46vh] w-auto sm:w-80 sm:max-w-[calc(100%-2rem)] lg:left-4 lg:right-auto lg:top-4 lg:bottom-16 lg:max-h-none bg-white rounded-xl shadow-lg border border-gray-200 z-10 flex flex-col overflow-hidden">
       <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100">
         <div>
           <h4 className="text-sm font-semibold text-gray-900">
@@ -1200,7 +1200,7 @@ export default function GisExplorerPage() {
       </div>
 
       <div className="flex-1 flex flex-col lg:flex-row lg:h-[calc(100vh-170px)] lg:overflow-hidden">
-        <aside className="w-full lg:w-72 bg-white border-b lg:border-b-0 lg:border-r border-gray-200 p-4 overflow-y-auto max-h-[calc(100vh-120px)]">
+        <aside className="w-full lg:w-72 bg-white border-b lg:border-b-0 lg:border-r border-gray-200 p-4 overflow-y-auto max-h-[calc(100vh-120px)] order-2 lg:order-1">
           <div className="mb-6">
             <h3 className="text-sm font-semibold text-gray-900 mb-2">{t.gis.findParcel}</h3>
             <form
@@ -1385,8 +1385,8 @@ export default function GisExplorerPage() {
           </div>
         </aside>
 
-        <div className="flex-1 relative h-[70vh] min-h-[480px] lg:h-auto lg:min-h-0">
-          <div ref={mapContainer} className="block h-full w-full" role="application" aria-label={t.gis.title} />
+        <div className="flex-1 relative order-1 lg:order-2 h-[70vh] min-h-[480px] lg:h-auto lg:min-h-0">
+          <div ref={mapContainer} className="block w-full h-[70vh] min-h-[480px] lg:h-full lg:min-h-0" role="application" aria-label={t.gis.title} />
 
           {(!mapLoaded || loading) && (
             <div className="absolute inset-0 bg-gray-100 flex items-center justify-center z-[1]">
