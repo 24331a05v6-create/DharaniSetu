@@ -108,9 +108,9 @@ export default function AboutPage() {
                 { name: 'TypeScript', category: 'Language' },
                 { name: 'Tailwind CSS', category: 'Styling' },
                 { name: 'MapLibre GL JS', category: 'GIS' },
-                { name: 'PostgreSQL + PostGIS', category: 'Database (Planned)' },
-                { name: 'Supabase', category: 'Backend (Planned)' },
-                { name: 'Supabase Auth', category: 'Authentication (Planned)' },
+                { name: 'PostgreSQL + PostGIS', category: 'Database' },
+                { name: 'Supabase', category: 'Backend' },
+                { name: 'Supabase Auth', category: 'Authentication' },
               ].map((tech) => (
                 <div key={tech.name} className="p-3 bg-gray-50 rounded-lg">
                   <p className="text-sm font-medium text-gray-900">{tech.name}</p>
@@ -128,11 +128,11 @@ export default function AboutPage() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <span className="w-2 h-2 rounded-full bg-green-500" />
-                <span className="text-sm text-gray-700">Step 1: UI Foundation & Architecture (Current)</span>
+                <span className="text-sm text-gray-700">Step 1: UI Foundation & Architecture (Completed)</span>
               </div>
               <div className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-gray-300" />
-                <span className="text-sm text-gray-500">Step 2: Database & Search (Planned)</span>
+                <span className="w-2 h-2 rounded-full bg-green-500" />
+                <span className="text-sm text-gray-700">Step 2: Database & Search (Completed)</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="w-2 h-2 rounded-full bg-gray-300" />
@@ -185,7 +185,9 @@ export default function AboutPage() {
             <h2 className="text-xl font-bold mb-2">Smart India Hackathon</h2>
             <p className="text-blue-200 text-sm">
               DharaniSetu is developed as a prototype for the Government of India&apos;s Land Stack problem statement
-              at Smart India Hackathon. This Step 1 implementation demonstrates the UI foundation and architecture.
+              at Smart India Hackathon. The working implementation includes the UI foundation, live Supabase
+              PostgreSQL + PostGIS database with parcel search, GIS visualization, parcel profiles, citizen
+              services, and multilingual support.
             </p>
           </div>
         </section>
