@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "survey_no": "12/1",
+        "sub_division": "a",
+        "village_name": "Gunadala",
+        "mandal_name": "Vijayawada Rural",
+        "district_name": "Krishna",
+        "state_name": "Andhra Pradesh",
+        "land_area": "1.25",
+        "area_unit": "acres",
+        "land_use": "residential",
+        "land_classification": "Non-Agricultural",
+        "owner_name": "Rama Krishna",
+        "owner_type": "individual",
+        "parcel_id": "AP-KR-VR-012-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.6215, 16.5195], [80.6225, 16.5195], [80.6225, 16.5205], [80.6215, 16.5205], [80.6215, 16.5195]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "survey_no": "12/2",
+        "sub_division": "",
+        "village_name": "Gunadala",
+        "mandal_name": "Vijayawada Rural",
+        "district_name": "Krishna",
+        "state_name": "Andhra Pradesh",
+        "land_area": "0.75",
+        "area_unit": "acres",
+        "land_use": "residential",
+        "land_classification": "Non-Agricultural",
+        "owner_name": "Suresh Kumar",
+        "owner_type": "individual",
+        "parcel_id": "AP-KR-VR-012-002"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.6195, 16.5185], [80.6205, 16.5185], [80.6205, 16.5195], [80.6195, 16.5195], [80.6195, 16.5185]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "survey_no": "45/1",
+        "sub_division": "",
+        "village_name": "Gunadala",
+        "mandal_name": "Vijayawada Rural",
+        "district_name": "Krishna",
+        "state_name": "Andhra Pradesh",
+        "land_area": "2.50",
+        "area_unit": "acres",
+        "land_use": "agricultural",
+        "land_classification": "Agricultural",
+        "owner_name": "Lakshmi Devi",
+        "owner_type": "individual",
+        "parcel_id": "AP-KR-VR-045-001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.6250, 16.5220], [80.6270, 16.5220], [80.6270, 16.5240], [80.6250, 16.5240], [80.6250, 16.5220]]]
+      }
+    }
+  ]
+}

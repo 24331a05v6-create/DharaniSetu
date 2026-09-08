@@ -1,0 +1,6 @@
+survey_no,sub_division,village_name,mandal_name,district_name,state_name,land_area,area_unit,land_use,land_classification,owner_name,owner_type,parcel_id
+12/1,a,Gunadala,Vijayawada Rural,Krishna,Andhra Pradesh,1.25,acres,residential,Non-Agricultural,Rama Krishna,individual,AP-KR-VR-012-001
+12/2,,Gunadala,Vijayawada Rural,Krishna,Andhra Pradesh,0.75,acres,residential,Non-Agricultural,Suresh Kumar,individual,AP-KR-VR-012-002
+45/1,,Gunadala,Vijayawada Rural,Krishna,Andhra Pradesh,2.50,acres,agricultural,Agricultural,Lakshmi Devi,individual,AP-KR-VR-045-001
+67/3,b,Nallapadu,Guntur Urban,Guntur,Andhra Pradesh,5000,sq.ft,commercial,Commercial,Guntur Traders Pvt Ltd,corporate,AP-GN-GU-067-003
+78/2,a,Nallapadu,Guntur Urban,Guntur,Andhra Pradesh,0.50,acres,residential,Non-Agricultural,Venkata Rao,individual,AP-GN-GU-078-002
